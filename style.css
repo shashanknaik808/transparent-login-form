@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -15,32 +16,33 @@ body {
     left: 40%; 
 }
 
-.container h1{
-    width: 76%;
+.container h1 {
+    font-family: 'Heebo', sans-serif;
+    width: 50%;
     display: inline-block;
     font-size: 40px;
     border-bottom: 5px solid purple;
     margin-bottom: 15px;
-    padding: 19px 57px;
+    padding: 13px 0;
 }
 
 .box{
-    width: 100%;
-    margin: 22px 0;
-    border: 2px solid purple;
+    width: 100%; 
+    margin: 22px 0px;
+    border-bottom: 2px solid purple;
 }
 
-.box input{
+.box input{  
     background: none;
     width: 75%;
     padding: 5px 10px;
     font-size: 20px;
     border: none;
-    outline: none;
+    outline:none;
     color: white;
 }
 
-.box i{
+.box i {
     width: 25px;
     text-align: center;
 }
@@ -48,17 +50,17 @@ body {
 .btn{
     color: white;
     cursor: pointer;
-    outline: none;
+    outline: none; 
     margin: 12px 0;
     padding: 10px 21px;
     border: 2px solid purple;
     border-radius: 10px;
     font-size: 18px;
     background: none;
-    font-weight: bold;
+    font-weight: bold;  
 }
 
-.btn:hover{
+.btn:hover {
     opacity: 0.5;
     color: purple;
     background: white;
